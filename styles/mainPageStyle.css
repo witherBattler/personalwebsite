@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    background-color: #333333;
+}
+
+#mainTitleTop {
+    text-align: center;
+    font-family: 'Itim', cursive;
+    font-size: 30px;
+}
+
+#slogan {
+    margin-top: 0px;
+}
+
+#mainTitleIMPixel {
+    font-size: 70px !important;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: yellow;
+    -webkit-animation-name: rainbow;
+    -webkit-animation-duration: 20s;
+    animation-name: rainbow;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+    0%   {color: red;}
+    10%  {color: orange;}
+    20%  {color: yellow;}
+    30%  {color: lightgreen;}
+    40%  {color: yellowgreen;}
+    50%  {color: green;}
+    60%  {color: yellowgreen;}
+    70% {color: lightgreen;}
+    80% {color: yellow;}
+    90% {color: orange;}
+    100% {color: red;}
+    
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow {
+    0%   {color: red;}
+    10%  {color: orange;}
+    20%  {color: yellow;}
+    30%  {color: lightgreen;}
+    40%  {color: yellowgreen;}
+    50%  {color: green;}
+    60%  {color: yellowgreen;}
+    70% {color: lightgreen;}
+    80% {color: yellow;}
+    90% {color: orange;}
+    100% {color: red;}
+}
+
+@keyframes background-rainbow {
+    0%   {background-color: red;}
+    10%  {background-color: orange;}
+    20%  {background-color: yellow;}
+    30%  {background-color: lightgreen;}
+    40%  {background-color: yellowgreen;}
+    50%  {background-color: green;}
+    60%  {background-color: yellowgreen;}
+    70% {background-color: lightgreen;}
+    80% {background-color: yellow;}
+    90% {background-color: orange;}
+    100% {background-color: red;}
+    
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes background-rainbow {
+    0%   {background-color: red;}
+    10%  {background-color: orange;}
+    20%  {background-color: yellow;}
+    30%  {background-color: lightgreen;}
+    40%  {background-color: yellowgreen;}
+    50%  {background-color: green;}
+    60%  {background-color: yellowgreen;}
+    70% {background-color: lightgreen;}
+    80% {background-color: yellow;}
+    90% {background-color: orange;}
+    100% {background-color: red;}
+}
+
+
+
+#paragraph1 {
+    font-family: 'Raleway', sans-serif;
+    width: 1000px;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.buttonBottomFirstParagraph {
+    font-family: 'Raleway', sans-serif;
+    width: 250px;
+    height: 30px;
+    font-size: 25px;
+    -webkit-animation-name: background-rainbow;
+    -webkit-animation-duration: 20s;
+    animation-name: background-rainbow;
+    animation-duration: 20s;
+    display: inline-block;
+    line-height: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    user-select: none;
+    animation-iteration-count: infinite;
+    text-decoration: none;
+    color: black;
+}

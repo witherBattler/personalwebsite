@@ -5,17 +5,17 @@ body {
     background-color: #333333;
 }
 
-#mainTitleTop {
+#mainTitleTopGames {
     text-align: center;
     font-family: 'Itim', cursive;
     font-size: 30px;
 }
 
-#slogan {
+#explanationTextGames {
     margin-top: 0px;
 }
 
-#mainTitleIMPixel {
+#mainTitleGames {
     font-size: 70px !important;
     margin-bottom: 0px;
     margin-top: 10px;
@@ -26,6 +26,7 @@ body {
     animation-duration: 20s;
     animation-iteration-count: infinite;
 }
+
 
 @keyframes rainbow {
     0%   {color: red;}
@@ -85,30 +86,4 @@ body {
     80% {background-color: yellow;}
     90% {background-color: orange;}
     100% {background-color: red;}
-}
-
-
-
-#paragraph1 {
-    font-family: 'Raleway', sans-serif;
-    width: 1000px;
-    font-size: 30px;
-    margin-bottom: 100px;
-}
-
-.buttonBottomFirstParagraph {
-    font-family: 'Raleway', sans-serif;
-    width: 250px;
-    height: 30px;
-    font-size: 25px;
-    -webkit-animation-name: background-rainbow;
-    -webkit-animation-duration: 20s;
-    animation-name: background-rainbow;
-    animation-duration: 20s;
-    display: inline-block;
-    line-height: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
-    user-select: none;
-    animation-iteration-count: infinite;
 }
