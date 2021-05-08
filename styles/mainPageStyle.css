@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 body {
     background-color: #333333;
@@ -25,6 +26,32 @@ body {
     animation-name: rainbow;
     animation-duration: 20s;
     animation-iteration-count: infinite;
+}
+
+#footerContacts {
+    border: red 4px solid;
+    display: inline-block;
+    width: 99.5%;
+    text-align: center;
+}
+
+#footer {
+    position:absolute;
+    bottom: 10px;
+    width: 100%;
+    left: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #444444;
+}
+
+#discord {
+    color: #738ADB;
+    font-size: 20px;
+}
+
+#email {
+    color: red;
+    font-size: 20px;
 }
 
 @keyframes rainbow {
@@ -94,6 +121,7 @@ body {
     width: 1000px;
     font-size: 30px;
     margin-bottom: 100px;
+    color: #999999;
 }
 
 .buttonBottomFirstParagraph {

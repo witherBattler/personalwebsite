@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 
 body {
     background-color: #333333;
@@ -27,6 +29,36 @@ body {
     animation-iteration-count: infinite;
 }
 
+.gameTile {
+    width: 300px;
+    height: 250px;
+    background-color: #999999;
+    text-align: center;
+    position: relative;
+}
+
+.h3games {
+    font-family: 'Itim', cursive;
+    font-size: 50px;
+    margin-bottom: 0;
+    -webkit-animation-name: rainbow;
+    -webkit-animation-duration: 20s;
+    animation-name: rainbow;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.paragraphGames {
+    font-family: 'Raleway', sans-serif;
+}
+
+.playButtonGames {
+    font-family: 'Lato', sans-serif;
+    height: 80px;
+    width: 100px;
+    background-color: red;
+    display: inline-block;
+}
 
 @keyframes rainbow {
     0%   {color: red;}
@@ -43,7 +75,6 @@ body {
     
 }
 
-/* Chrome, Safari, Opera */
 @-webkit-keyframes rainbow {
     0%   {color: red;}
     10%  {color: orange;}
@@ -73,7 +104,6 @@ body {
     
 }
 
-/* Chrome, Safari, Opera */
 @-webkit-keyframes background-rainbow {
     0%   {background-color: red;}
     10%  {background-color: orange;}
@@ -87,3 +117,4 @@ body {
     90% {background-color: orange;}
     100% {background-color: red;}
 }
+
