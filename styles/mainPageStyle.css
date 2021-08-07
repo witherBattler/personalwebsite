@@ -29,7 +29,6 @@ body {
 }
 
 #footerContacts {
-    border: red 4px solid;
     display: inline-block;
     width: 99.5%;
     text-align: center;

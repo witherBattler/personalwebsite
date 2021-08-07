@@ -7,6 +7,18 @@ body {
     background-color: #333333;
 }
 
+#backButton {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+#backButton:hover {
+    cursor: pointer;
+}
+
 #mainTitleTopGames {
     text-align: center;
     font-family: 'Itim', cursive;
@@ -34,7 +46,16 @@ body {
     height: 250px;
     background-color: #999999;
     text-align: center;
-    position: relative;
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.comingSoonText {
+    margin-top: 40px;
+    font-family: 'Itim', cursive;
+    color: red;
+    font-size: 50px;
 }
 
 .h3games {
@@ -54,10 +75,21 @@ body {
 
 .playButtonGames {
     font-family: 'Lato', sans-serif;
-    height: 80px;
+    height: 30px;
     width: 100px;
     background-color: red;
     display: inline-block;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.row {
+    width: 100vw;
+    text-align: center;
+}
+
+.gameTileWithoutButton {
+    height: 150px;
 }
 
 @keyframes rainbow {
